@@ -9,16 +9,16 @@ Security
 Intro
 ------------------------------------------------------------
 
-As your trusted opensource security product, we do care a lot about security and with our regular release schedule we
+As your trusted open source security product, we do care a lot about security and with our regular release schedule we
 try to stay ahead of possible incidents. Even though we are cautious and stay informed, sometimes issues
-do occur, in which case it's good to know what to do.
+do occur, in which case it is good to know what to do.
 
 
 ------------------------------------------------------------
 Staying ahead
 ------------------------------------------------------------
 
-Even though we always encourage people to update regularly, sometimes it's not possible to do so for various reasons.
+Even though we always encourage people to update regularly, sometimes it is not possible to do so for various reasons.
 
 Luckily OPNsense comes with an integrated security check for known vulnerabilities, which can be found in our firmware
 module. In which case you do have the opportunity to validate for yourself what the risk is to keep using the
@@ -47,7 +47,7 @@ If all goes well, a report like the one below will be shown:
 
 .. Warning::
 
-    Please don't report issues to us reported by the security health check, they are already known and highly likely
+    Please do not report issues to us reported by the security health check, they are already known and highly likely
     a fix is pending for the next release.
 
 
@@ -55,9 +55,9 @@ If all goes well, a report like the one below will be shown:
 Upstream vulnerabilities
 ------------------------------------------------------------
 
-Since OPNsense is a collection of opensource software, when finding an issue, it is always a good idea to
-inspect where it should be fixed first. In case you don't know or aren't sure, you can still ask on our end, just
-know that we don't have the manpower to act as an intermediary between various projects.
+Since OPNsense is a collection of open source software, when finding an issue, it is always a good idea to
+inspect where it should be fixed first. In case you do not know or are not sure, you can still ask on our end, just
+know that we do not have the manpower to act as an intermediary between various projects.
 
 
 ------------------------------------------------------------
@@ -143,7 +143,7 @@ giving more weight to concrete and practical tests that combat real threats than
 As most frameworks are not intended to be repeated very regularly, together with `jtsec <https://www.jtsec.es/>`__ we came up with an approach which
 makes it possible to pass the test twice a year, which is needed to align with our Business Edition releases.
 
-During every cycle, there's always a chance that (small) issues appear which should be fixed, in close accordance with jtsec, the OPNSense
+During every cycle, there is always a chance that (small) issues appear which should be fixed, in close accordance with jtsec, the OPNSense
 team prepares fixes for the findings and makes sure that these are included in a future (minor) release.
 
 
