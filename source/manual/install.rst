@@ -210,7 +210,7 @@ the following commands (substituting the filenames in brackets for the files you
    openssl sha256 OPNsense-<filename>.bz2
 
 Match the checksum command output with the checksum values in the file ``OPNsense-<version>-OpenSSL-checksums-amd64.sha256``.
-If the checksums don't match, redownload your image file.
+If the checksums do not match, redownload your image file.
 
 If the checksums match, continue with the verification commands.
 
@@ -279,7 +279,7 @@ not a block mode device.
      sudo dd if=OPNsense-##.#.##-[Type]-[Architecture].img of=/dev/sdX bs=16k
 
 where X = the IDE device name of your USB flash drive (check with hdparm -i /dev/sdX)
-(ignore the warning about trailing garbage - it's because of the digital signature)
+(ignore the warning about trailing garbage - it is because of the digital signature)
 
 **macOS**
 ::
@@ -288,7 +288,7 @@ where X = the IDE device name of your USB flash drive (check with hdparm -i /dev
 
 where r = raw device, and where X = the disk device number of your CF
 card (check Disk Utility) (ignore the warning about trailing garbage -
-it's because of the digital signature)
+it is because of the digital signature)
 
 **Windows**
 ::
